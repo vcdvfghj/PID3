@@ -19,16 +19,15 @@ public class PID_Access {
 
     public static double hKp = 0.05;
     public static double hKi = 0;
-    public static double hKd = 0.0;
+    public static double hKd = 0.0001;
 
-    public static double yKp = 0.205;
-    public static double yKi = 0;
-    public static double yKd = 0.005224037;
+    public static double yKp = 0.305;
+    public static double yKi = 0.01;
+    public static double yKd = 0.007224038;
 
-    public static double xKp = 0.121503;
-    public static double xKi = 0;
-    public static double xKd = 0.008;
-
+    public static double xKp = 0.221503;
+    public static double xKi = 0.01;
+    public static double xKd = 0.026;
 
     //Target Position and Initial Position are in reference to the left origin point
 
