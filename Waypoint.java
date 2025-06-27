@@ -53,7 +53,7 @@ public class Waypoint extends LinearOpMode {
     public static double xPodOffset = 148.9;
 
     public static double yPodOffset = -152.5;
-    public static boolean canReset = false;
+
 
 
     PIDFController xPID = new PIDFController(xKp, xKi, xKd, 0);
